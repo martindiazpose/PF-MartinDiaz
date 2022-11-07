@@ -126,3 +126,15 @@ a {
 iframe {
   margin-left: 100px;
 }
+$background-color_1: #CF4B32;
+
+.zoom-box {
+	background-color: $background-color_1;
+	width: 100px;
+	height: 100px;
+	margin: 32px auto;
+	transition: transform .2s;
+	&:hover {
+		transform: scale(1.5);
+	}
+}
