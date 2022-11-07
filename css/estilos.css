@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 h1 {
+  color: rgb(0, 0, 0);
   font-family: "Fredericka the Great", cursive;
   font-style: normal;
   font-size: 3rem;
@@ -36,6 +37,7 @@ h1 {
 }
 
 .menu ul {
+
   list-style: none;
   font-size: 0;
 }
@@ -56,12 +58,14 @@ h1 {
 }
 
 body {
-  background-color: #faf4fc00;
-  background-image: url(../assets/img/pattern.png);
+  background-color: rgba(242, 248, 239, 0.647);
+  background-image: url(../assets/img/Sala\ de\ Esperabyn.jpeg);
   background-blend-mode: soft-light;
+  background-attachment:fixed;
+  background-size: 100% 100%;
 }
 img {
-  border: 0;
+  border:0;
 }
 
 nav {
@@ -114,7 +118,9 @@ p:before {
   color: #5a5a5a;
 }
 
-
+a{
+  color: black;
+}
 
 iframe {
   margin-left: 100px;
