@@ -80,7 +80,6 @@ nav {
   border-bottom: 6px solid #0a0b0b;
   border-right: 6px solid #0a0b0b;
   border-left: 6px solid #0a0b0b;
-  
 }
 
 .form {
@@ -93,6 +92,11 @@ nav {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   position: relative;
+  margin-left: 100px;
+}
+
+button {
+  margin-left: 100px;
 }
 
 h2 {
@@ -135,10 +139,19 @@ iframe {
 }
 
 .zoom-box {
-  z-index:9999;
-  transform: scale(1.2 1.2);
-  transition: transform 0ms;
+  width: 600px;
+  height: 200px;
+  padding: 50px;
+  margin: 32px auto;
+  transition: transform 0.2s;
 }
 .zoom-box:hover {
   transform: scale(1.5);
+}
+
+footer {
+  margin-top: 85px;
+}
+footer p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
