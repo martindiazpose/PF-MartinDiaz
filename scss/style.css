@@ -8,6 +8,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-image: url(/assets/img/pattern4.png);
 }
 
 /**Fuentes**/
@@ -29,6 +30,7 @@ body {
 
 .twitterlogo {
   width: 25px;
+  margin-right: 20px;
 }
 
 .portada {
@@ -39,12 +41,17 @@ body {
   display: block;
 }
 
+.row {
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
 a {
   color: black;
 }
 
 button {
-  margin-left: 100px;
+  margin-left: 85px;
 }
 
 footer {
@@ -54,7 +61,7 @@ footer p {
   text-align: center;
 }
 
-.form {
+form {
   width: 340px;
   height: 440px;
   background: #e6e6e6;
@@ -62,13 +69,15 @@ footer p {
   box-shadow: 0 0 40px -10px #000;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
+  padding: 15px;
+  padding-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  margin-left: 100px;
+  margin-left: 0px;
 }
-
 form p {
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
 }
 
 h1 {
@@ -143,6 +152,15 @@ p:before {
   margin: 28px 0 0;
   font-size: 14px;
   color: #5a5a5a;
+}
+
+.nosotros {
+  margin: 0 20px 0 20px;
+  text-align: justify;
+}
+
+.contacto {
+  text-align: center;
 }
 
 ul {

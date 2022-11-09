@@ -1,4 +1,4 @@
-.form {
+form {
   width: 340px;
   height: 440px;
   background: #e6e6e6;
@@ -6,13 +6,14 @@
   box-shadow: 0 0 40px -10px #000;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
+  padding: 15px;
+  padding-bottom: 10px;
   font-family: $font-family_4;
   position: relative;
-  margin-left: 100px;
-}
-
-form {
+  margin-left: 0px;
+  
   p {
-    text-align: center;
+      text-align: left;
+      margin-left: 10px;
   }
 }

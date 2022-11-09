@@ -13,10 +13,15 @@
 }
 .twitterlogo {
   width: 25px;
+  margin-right: 20px;
 }
 .portada {
   width: 70%;
 }
 .menu {
   display: block;
+}
+.row{
+  justify-content: space-evenly;
+  padding-top: 10px;
 }
