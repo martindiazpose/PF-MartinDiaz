@@ -117,6 +117,7 @@ input {
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s;
   border-bottom: 2px solid #bebed2;
+  text-align: center;
 }
 input:focus {
   border-bottom: 2px solid #78788c;
@@ -138,20 +139,13 @@ iframe {
   margin-left: 100px;
 }
 
-.zoom-box {
-  width: 600px;
-  height: 200px;
-  padding: 50px;
-  margin: 32px auto;
-  transition: transform 0.2s;
-}
-.zoom-box:hover {
-  transform: scale(1.5);
-}
-
 footer {
   margin-top: 85px;
 }
 footer p {
+  text-align: center;
+}
+
+form p {
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
