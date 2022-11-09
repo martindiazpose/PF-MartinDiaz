@@ -1,0 +1,9 @@
+p {
+  &:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: $color_3;
+  }
+}

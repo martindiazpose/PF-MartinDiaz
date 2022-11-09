@@ -1,0 +1,16 @@
+li {
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  font-size: 20px;
+  background-size: cover;
+  opacity: 1;
+}
+.pie {
+  li {
+    display: inline;
+    position: relative;
+    font-family: $font-family_2;
+  }
+}
+

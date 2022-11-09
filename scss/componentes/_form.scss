@@ -1,0 +1,18 @@
+.form {
+  width: 340px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: $font-family_4;
+  position: relative;
+  margin-left: 100px;
+}
+
+form {
+  p {
+    text-align: center;
+  }
+}

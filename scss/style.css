@@ -5,14 +5,12 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: rgb(0, 0, 0);
-  font-family: "Fredericka the Great", cursive;
-  font-style: normal;
-  font-size: 3rem;
-  text-align: center;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
+/**Fuentes**/
 .centrar {
   text-align: center;
 }
@@ -40,46 +38,20 @@ h1 {
 .menu {
   display: block;
 }
-.menu ul {
-  list-style: none;
-  font-size: 0;
-}
-.menu li {
-  display: inline-block;
-  position: relative;
-  width: 10%;
-  font-size: 20px;
-  background-size: cover;
-  opacity: 1;
+
+a {
+  color: black;
 }
 
-.pie li {
-  display: inline;
-  position: relative;
-  font-family: "Times New Roman", Times, serif;
+button {
+  margin-left: 100px;
 }
 
-body {
-  background-color: rgba(242, 248, 239, 0.647);
-  background-image: url(../assets/img/pattern4.png);
-  background-blend-mode: soft-light;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+footer {
+  margin-top: 85px;
 }
-
-img {
-  border: 0;
-}
-
-nav {
-  font-family: "Fuzzy Bubbles", cursive;
-}
-
-.img {
-  border-top: 6px solid #090909;
-  border-bottom: 6px solid #0a0b0b;
-  border-right: 6px solid #0a0b0b;
-  border-left: 6px solid #0a0b0b;
+footer p {
+  text-align: center;
 }
 
 .form {
@@ -95,16 +67,39 @@ nav {
   margin-left: 100px;
 }
 
-button {
-  margin-left: 100px;
+form p {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Fredericka the Great", cursive;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
   margin: 30px;
   padding-bottom: 10px;
   width: 180px;
-  color: #78788c;
+  color: #1616ec;
   border-bottom: 3px solid #78788c;
+}
+
+iframe {
+  margin-left: 100px;
+}
+
+img {
+  border: 0;
+}
+
+.img {
+  border-top: 3px solid #090909;
+  border-bottom: 3px solid #0a0b0b;
+  border-right: 3px solid #0a0b0b;
+  border-left: 3px solid #0a0b0b;
 }
 
 input {
@@ -123,6 +118,25 @@ input:focus {
   border-bottom: 2px solid #78788c;
 }
 
+li {
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  font-size: 20px;
+  background-size: cover;
+  opacity: 1;
+}
+
+.pie li {
+  display: inline;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
 p:before {
   content: attr(type);
   display: block;
@@ -131,21 +145,7 @@ p:before {
   color: #5a5a5a;
 }
 
-a {
-  color: black;
-}
-
-iframe {
-  margin-left: 100px;
-}
-
-footer {
-  margin-top: 85px;
-}
-footer p {
-  text-align: center;
-}
-
-form p {
-  text-align: center;
+ul {
+  list-style: none;
+  font-size: 0;
 }/*# sourceMappingURL=style.css.map */
