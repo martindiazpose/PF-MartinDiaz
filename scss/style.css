@@ -46,6 +46,10 @@ body {
   padding-top: 10px;
 }
 
+.pindex {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
 a {
   color: black;
 }
