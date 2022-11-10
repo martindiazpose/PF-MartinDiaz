@@ -50,6 +50,10 @@ body {
   font-family: "Fuzzy Bubbles", cursive;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 a {
   color: black;
 }

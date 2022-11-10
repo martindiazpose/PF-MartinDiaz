@@ -27,7 +27,9 @@
 }
 
 .pindex {
-  font-family: $font-family_3;;
+  font-family: $font-family_3;
 }
 
-
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
