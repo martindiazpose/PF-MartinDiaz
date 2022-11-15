@@ -79,7 +79,7 @@ form {
   box-sizing: border-box;
   padding: 15px;
   padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fuzzy Bubbles", cursive;
   position: relative;
   margin-left: 0px;
 }
@@ -90,7 +90,7 @@ form p {
 
 h1 {
   color: rgb(0, 0, 0);
-  font-family: "Fredericka the Great", cursive;
+  font-family: "DM Serif Text", serif;
   font-style: normal;
   font-size: 3rem;
   text-align: center;
@@ -126,7 +126,7 @@ input {
   outline: none;
   resize: none;
   border: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fuzzy Bubbles", cursive;
   transition: all 0.3s;
   border-bottom: 2px solid #bebed2;
   text-align: center;
@@ -136,18 +136,19 @@ input:focus {
 }
 
 li {
+  font-family: "DM Serif Text", serif;
   display: inline-block;
   position: relative;
   width: 10%;
   font-size: 20px;
   background-size: cover;
-  opacity: 1;
+  opacity: 5;
 }
 
 .pie li {
   display: inline;
   position: relative;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Fasthand", cursive;
 }
 
 nav {
