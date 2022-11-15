@@ -24,7 +24,7 @@
 .row {
   justify-content: space-evenly;
   padding-top: 10px;
-  margin-right: 0.5cm;
+
 }
 
 .pindex {
@@ -33,4 +33,7 @@
 
 .selector-for-some-widget {
   box-sizing: content-box;
+}
+.maps{
+  size-adjust: width="600" height="450";
 }
