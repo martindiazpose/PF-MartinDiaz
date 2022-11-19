@@ -44,7 +44,6 @@ body {
 .row {
   justify-content: space-evenly;
   padding-top: 10px;
-  margin-right: 0.5cm;
 }
 
 .pindex {
@@ -101,7 +100,7 @@ h2 {
   margin: 30px;
   padding-bottom: 10px;
   width: 180px;
-  color: #1616ec;
+  color: #f12968;
   border-bottom: 3px solid #78788c;
 }
 
