@@ -54,6 +54,15 @@ body {
   box-sizing: content-box;
 }
 
+.btn-primary {
+  background-color: black;
+  border-color: rgb(2, 2, 2);
+}
+
+button {
+  margin-left: 98px;
+}
+
 a {
   color: black;
 }
@@ -102,10 +111,6 @@ h2 {
   width: 180px;
   color: #f12968;
   border-bottom: 3px solid #78788c;
-}
-
-iframe {
-  margin-left: 70px;
 }
 
 img {

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-la">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserva de Consultorio">
+    <meta name="keywords" content="Reserva,Consultorios, Psicologico, Niños, Adultos,Montevideo,Uruguay,reserva hora, reserva mes">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../scss/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Fasthand&family=Fredericka+the+Great&family=Fuzzy+Bubbles:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/salud-mental.png" />
+    <title>Consultorio Boulevard Reservas</title>
+</head>
+<body>
+    <Header>
+        <nav class="centrar">
+            <Ul class="nav">
+                <li class="d-inline col-lg-2"><a href="../index.html">Inicio</a></li>
+                <li class="d-inline col-lg-2"><a href="../pages/consultorios.html">Consultorios</a></li>
+                <li class="d-inline col-lg-2"><a href="../pages/contacto.html">Contacto</a> </li>
+                <li class="d-inline col-lg-2"><a href="../pages/acerca_de_nosotros.html">Nosotros</a></li>
+                <li class="d-inline col-lg-2"> <a href="../pages/reservas.html">Reservas</a></li>
+            </Ul>
+            <H1>Reservas</H1>
+        </nav>
+    </Header>
+    <section class="row">
+        <form>
+            <div class="form-group">
+                <div class="">
+                    <input type="text" class="form-control" placeholder="Nombre y Apellido">
+                </div>
+                <div class="">
+                    <input type="tel" class="form-control" placeholder="Telefono">
+                </div>
+                <div class="">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Consultorio</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Niños</option>
+                        <option>Adultos</option>
+                    </select>
+                </div>
+                <div class="">
+                    <label for="date">Fecha</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <button type="submit" class="btn btn-primary">Reservar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
