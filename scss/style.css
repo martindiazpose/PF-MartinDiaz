@@ -39,6 +39,7 @@ body {
 
 .menu {
   display: block;
+  justify-content: center;
 }
 
 .row {
@@ -59,7 +60,7 @@ body {
   border-color: rgb(2, 2, 2);
 }
 
-button {
+.button {
   margin-left: 98px;
 }
 
@@ -125,7 +126,6 @@ img {
 }
 
 input {
-  width: 100%;
   margin: 5px;
   background: none;
   outline: none;
