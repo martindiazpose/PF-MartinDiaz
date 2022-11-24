@@ -64,6 +64,10 @@ body {
   margin-left: 98px;
 }
 
+.carousel-control-next-icon {
+  color: black;
+}
+
 a {
   color: black;
 }
@@ -112,17 +116,6 @@ h2 {
   width: 180px;
   color: #f12968;
   border-bottom: 3px solid #78788c;
-}
-
-.img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 80%;
-  border-top: 3px solid #090909;
-  border-bottom: 3px solid #0a0b0b;
-  border-right: 3px solid #0a0b0b;
-  border-left: 3px solid #0a0b0b;
 }
 
 .d-block {
