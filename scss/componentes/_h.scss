@@ -1,0 +1,21 @@
+h1 {
+  color: $color_1;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+}
+h2 {
+  margin: 30px;
+  padding-bottom: 10px;
+  width: 180px;
+  color: $color_2;
+  border-bottom: 3px solid #78788c;
+}
+h5 {
+  margin: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+  font-family: $font-family_1;
+}
