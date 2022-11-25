@@ -49,6 +49,7 @@ body {
 
 .pindex {
   font-family: "Fuzzy Bubbles", cursive;
+  text-align: center;
 }
 
 .selector-for-some-widget {
@@ -141,7 +142,7 @@ h5 {
   display: block;
   margin: 0 auto;
   margin-top: 1cm;
-  min-width: 75%;
+  min-width: 60%;
   max-width: 75%;
   border-top: 2px solid #090909;
   border-bottom: 1px solid #0a0b0b;
